@@ -85,6 +85,9 @@ async def to_code(config):
 
     # DSMR Parser
     cg.add_library("glmnet/Dsmr", "0.5")
-
+    cg.add_library(
+        name="Dsmr",
+        repository="https://github.com/kloodhu/arduino-dsmr",
+    )
     # Crypto
     cg.add_library("rweather/Crypto", "0.4.0")
