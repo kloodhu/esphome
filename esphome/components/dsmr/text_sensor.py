@@ -22,6 +22,14 @@ CONFIG_SCHEMA = cv.Schema(
         cv.Optional("water_equipment_id"): text_sensor.text_sensor_schema(),
         cv.Optional("sub_equipment_id"): text_sensor.text_sensor_schema(),
         cv.Optional("gas_delivered_text"): text_sensor.text_sensor_schema(),
+        cv.Optional("equipment_id"): text_sensor.text_sensor_schema(),
+        cv.Optional("COSEM_logical_device_name"): text_sensor.text_sensor_schema(),
+        cv.Optional("breaker_status"): text_sensor.text_sensor_schema(),
+        cv.Optional("monthly_datas"): text_sensor.text_sensor_schema(),
+        cv.Optional("power_factor"): text_sensor.text_sensor_schema(),
+        cv.Optional("power_factor_l1"): text_sensor.text_sensor_schema(),
+        cv.Optional("power_factor_l2"): text_sensor.text_sensor_schema(),
+        cv.Optional("power_factor_l3"): text_sensor.text_sensor_schema(),
     }
 ).extend(cv.COMPONENT_SCHEMA)
 
