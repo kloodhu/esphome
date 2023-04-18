@@ -17,6 +17,7 @@ from esphome.const import (
     UNIT_KILOVOLT_AMPS_REACTIVE_HOURS,
     UNIT_KILOVOLT_AMPS_REACTIVE,
     UNIT_VOLT,
+    UNIT_HERTZ,
 )
 from . import Dsmr, CONF_DSMR_ID
 
