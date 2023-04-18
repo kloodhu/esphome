@@ -87,7 +87,7 @@ async def to_code(config):
     cg.add_library(
         name="Dsmr",
         repository="https://github.com/kloodhu/arduino-dsmr",
-        version="f82606ad97de1f10f38cd176d97b9cde9a67bafd",
+        version="0.6.1",
     )
     # Crypto
     cg.add_library("rweather/Crypto", "0.4.0")
